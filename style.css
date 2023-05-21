@@ -1,0 +1,164 @@
+body{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ background-color: rgb(219, 219, 219);
+ font-family: 'EB Garamond', serif;
+}
+.blue{
+    background-image: linear-gradient(120deg, rgb(13, 177, 218),rgb(67, 233, 178));
+    height: 100dvh;
+    width: 95dvw;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 50em;
+    border-bottom-right-radius: 50em;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 8px 10px 3px #727272;
+
+}
+.yellow,.yc{
+    background-image: linear-gradient(120deg, rgb(247, 230, 3),rgb(226, 255, 123));
+    height: 100dvh;
+    width: 95dvw;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 50em;
+    border-bottom-right-radius: 50em;
+    z-index: 1;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 8px 10px 3px #727272;
+    overflow-y: hidden;
+}
+.cont{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    /* flex-direction: row; */
+}
+fieldset{
+    height: 100%;
+    width: 100%;
+    border-color: white;
+    border-radius: 30px;
+    border-width: 2px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* display: grid; */
+    place-items: center;
+    /* font-size: 2rem; */
+}
+legend h1::before{
+  color: rgb(234, 250, 4);
+  content: "Hello";
+  font-size: 5rem;
+}
+fieldset div h2{
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #bac587;
+    color:rgb(69, 46, 168);
+}
+fieldset div p{
+    font-size: 1.4rem;
+    color:rgb(69, 46, 168);
+}
+.logo{
+    height: 100%;
+    width: 5%;
+    background-image: linear-gradient(180deg, rgb(247, 231, 3),rgb(226, 255, 123));
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 8px 10px #727272;
+
+
+}
+.logo div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo div a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+img{
+    margin: 10%;
+}
+.forward{
+    position: absolute;
+    right: 2%;
+    top:50%;
+    z-index: 3;
+}
+.material-symbols-outlined{
+    font-size: 2rem;
+    color: rgb(35, 129, 98);
+    cursor: pointer;
+    
+}
+.cred{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:rgb(69, 46, 168);
+}
+.cred h2{
+   font-size: 1.5rem;
+   color:rgb(69, 46, 168);
+   /* color: white; */
+}
+.cred p{
+   font-size: 1.1rem;
+  
+}
+.about{
+    padding: 2%;
+    color:rgb(69, 46, 168);
+}
+.about h1{
+    font-size: 3.3rem;
+    color:rgb(69, 46, 168);
+    /* color: white; */
+}
+.about p{
+    font-size: 1.1rem;
+    color:rgb(69, 46, 168);
+    padding-right: 2%;
+}
+.hide {
+    display: none;
+}
+.side{
+    right: 1%;
+}
+/* .animate{
+ animation-name: slide;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ animation-timing-function: linear;
+}
+@keyframes slide {
+    from{
+        visibility: visible;
+      }
+      to {
+        visibility: hidden;
+    }
+} */
